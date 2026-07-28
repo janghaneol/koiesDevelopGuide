@@ -47,6 +47,9 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg  
 
+  - pymdownx.snippets:
+        base_path: docs # docs 폴더 기준 경로 설정      
+
 plugins:
   - search
 
@@ -75,4 +78,7 @@ nav:
       - Half Fee: Policy/HalfFee.md
       - Discount: Policy/Discount.md
       - Fee: Policy/Fee.md
+      
+  - 변경이력:
+      - 변경내용: History/changeLog.md
 
