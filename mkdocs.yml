@@ -1,0 +1,78 @@
+site_name: 교육시설공제 업무가이드
+site_description: NGMA 업무 아키텍처 및 계산 가이드
+
+theme:
+  name: material
+  language: ko
+
+  palette:
+    - scheme: default
+      primary: blue
+      accent: indigo
+
+    - scheme: slate
+      primary: blue
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
+
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.instant
+    - navigation.top
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+
+markdown_extensions:
+  - admonition
+  - tables
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg  
+
+plugins:
+  - search
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Home: index.md
+
+  - 개발표준:
+      - 개발표준 가이드: Convention/CodingConvention.md
+      - SQL 작성 가이드**: Convention/SqlConvention.md
+      
+  - 아키텍처:
+      - 시스템 아키텍처: Architecture/Architecture.md
+      - 업무 흐름: Architecture/BusinessFlow.md
+
+  - 업무 도메인:
+      - 일반건물: Domain/Building.md
+      - 일반건물: Domain/Building.md
+      - 일반건물: Domain/Building.md
+      - 일반건물: Domain/Building.md
+      - 일반건물: Domain/Building.md
+
+  - Policy:
+      - Half Fee: Policy/HalfFee.md
+      - Discount: Policy/Discount.md
+      - Fee: Policy/Fee.md
+
