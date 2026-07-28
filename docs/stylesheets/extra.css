@@ -1,0 +1,24 @@
+.hero {
+    padding: 32px;
+    margin-bottom: 24px;
+    border-radius: 16px;
+    background: linear-gradient(135deg, #eef5ff, #ffffff);
+}
+
+
+.md-typeset .grid.cards > ul > li {
+    border-radius: 12px;
+    transition: transform .2s ease;
+}
+
+
+.md-typeset .grid.cards > ul > li:hover {
+    transform: translateY(-5px);
+}
+
+
+.footer-note {
+    text-align: center;
+    opacity: .6;
+    margin-top: 40px;
+}
