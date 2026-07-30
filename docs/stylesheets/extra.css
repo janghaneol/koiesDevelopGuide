@@ -22,3 +22,8 @@
     opacity: .6;
     margin-top: 40px;
 }
+
+/* 좌측 사이드바 맨 위 사이트 제목 숨기기 */
+.md-sidebar--primary .md-nav--primary > .md-nav__title {
+  display: none;
+}

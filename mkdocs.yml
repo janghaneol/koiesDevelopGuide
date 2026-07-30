@@ -18,11 +18,10 @@ theme:
         name: Dark mode
 
   features:
-    - navigation.tabs
-    - navigation.sections
-    - navigation.expand
-    - navigation.instant
+    - navigation.instant  
     - navigation.top
+    - navigation.indexes
+
     - search.highlight
     - search.share
     - content.code.copy
@@ -56,29 +55,40 @@ plugins:
 extra_css:
   - stylesheets/extra.css
 
+extra_javascript:
+  - javascripts/nav.js
+
 nav:
-  - Home: index.md
+  - Home: 
+    - Dashboard: index.md
 
   - 개발표준:
       - 개발표준 가이드: Convention/CodingConvention.md
-      - SQL 작성 가이드**: Convention/SqlConvention.md
+      - SQL 작성 가이드: Convention/SqlConvention.md
       
   - 아키텍처:
       - 시스템 아키텍처: Architecture/Architecture.md
       - 업무 흐름: Architecture/BusinessFlow.md
 
   - 업무 도메인:
-      - 일반건물: Domain/Building.md
-      - 일반건물: Domain/Building.md
-      - 일반건물: Domain/Building.md
-      - 일반건물: Domain/Building.md
-      - 일반건물: Domain/Building.md
+      - 건물: 
+          - Domain/Building/index.md
+          - 일반건물: Domain/Building/GenrBldg.md
+          - 고가건물: Domain/Building/HiprcBldg.md
+      - 배상책임: Domain/Cmpns.md
+      - 부속물: Domain/Adjt.md
+      - 물품: Domain/Cmdty.md
+      - 특별담보: 
+          - Domain/Spclt/index.md
+          - 전기위험: Domain/Spclt/Erisk.md
+          - 지진복구지원: Domain/Spclt/Eaqk.md
+          - 물품포괄 : Domain/Spclt/CmdtyInclv.md
 
   - Policy:
       - Half Fee: Policy/HalfFee.md
       - Discount: Policy/Discount.md
       - Fee: Policy/Fee.md
-      
+
   - 변경이력:
       - 변경내용: History/changeLog.md
 
