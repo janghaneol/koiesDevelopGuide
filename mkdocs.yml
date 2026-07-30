@@ -86,6 +86,5 @@ nav:
 
   - 공통정책: Policy.md
 
-  - 변경이력:
-      - 변경내용: History/changeLog.md
+  - 변경이력: History/changeLog.md
 

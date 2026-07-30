@@ -103,15 +103,13 @@ com.ngma.app
 
 건물, 물품, 부속물 등 업무 영역별 계산 책임을 분리한다.
 
-- [건물](Domain/Building.md)
-- [배상책임](Domain/Cmpns.md)
-- [부속물](Domain/Adjt.md)
-- [물품](Domain/Cmdty.md)
-- [지진복구지원](Domain/Eaqk.md)
-- [물품포괄](Domain/CmdtyInclv.md)
-- [전기위험](Domain/Erisk.md)
+- [건물](../../Domain/Building/)
+- [배상책임](../../Domain/Cmpns/)
+- [부속물](../../Domain/Adjt)
+- [물품](../../Domain/Cmdty)
+- [특별약관](../../Domain/Spclt/)
 
-
+---
 
 ### Service 역할
 

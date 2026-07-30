@@ -56,7 +56,7 @@
     - 배상책임
     - 전기위험
 
-    [:octicons-arrow-right-24: Domain 보기](Domain/Building.md)
+    [:octicons-arrow-right-24: Domain 보기](Domain/Building/)
 
 
 -   :material-file-document-check:{ .lg .middle } **Business Rule**
@@ -98,9 +98,6 @@
 
 
 [:material-file-tree: Business Flow](Architecture/BusinessFlow.md)
-
-
-[:material-alert-circle: Troubleshooting](Troubleshooting.md)
 
 
 </div>
