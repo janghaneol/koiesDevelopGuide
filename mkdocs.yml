@@ -84,10 +84,7 @@ nav:
           - 지진복구지원: Domain/Spclt/Eaqk.md
           - 물품포괄 : Domain/Spclt/CmdtyInclv.md
 
-  - Policy:
-      - Half Fee: Policy/HalfFee.md
-      - Discount: Policy/Discount.md
-      - Fee: Policy/Fee.md
+  - 공통정책: Policy.md
 
   - 변경이력:
       - 변경내용: History/changeLog.md
