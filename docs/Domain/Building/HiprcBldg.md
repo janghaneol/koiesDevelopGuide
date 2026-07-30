@@ -33,7 +33,7 @@
 
 ### 📸 화면 기준 산출 예시 (Example)
 
-![고가건물 공제회비 계산 화면 스크린샷](/images/hiprc_bldg_cal_example.png)
+![고가건물 공제회비 계산 화면 스크린샷](../../images/hiprc_bldg_cal_example.png)
 
 > **[예시 시나리오]**<br>
 > • **건물대장가액(`bldgLdgrPcamt`):** `10,000,000,000` 원<br>
