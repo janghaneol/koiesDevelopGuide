@@ -38,7 +38,7 @@
     - 시스템 아키텍처
     - 업무 흐름
 
-    [:octicons-arrow-right-24: 문서 보기](Architeture/Architecture.md)
+    [:octicons-arrow-right-24: 문서 보기](Architecture/Architecture.md)
 
 
 -   :material-package-variant-closed:{ .lg .middle } **Domain**
@@ -71,7 +71,7 @@
     - 할인 정책
     - 반액 처리
 
-    [:octicons-arrow-right-24: 정책 보기](Policy/Fee.md)
+    [:octicons-arrow-right-24: 정책 보기](Policy.md)
 
 
 </div>
